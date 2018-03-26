@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+
+.body{
+ background-color: #f9f9f9;
+}
+
+.intro {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.main-image {
+  width: 75%;
+}
+
+.jumbotron {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.content {
+  display: table;
+}
+
+h1 {
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+h3 {
+  text-align: center;
+}
+
+.quote p{
+  margin-left: 75%;
+}

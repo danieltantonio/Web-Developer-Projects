@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Forum|Raleway');
+
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background:url('https://images.pexels.com/photos/303024/pexels-photo-303024.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.btn{
+  font-family: 'Forum', sans, serif, sans-serif;
+  border-radius: 9px;
+  border: solid 2px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 135%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover{
+  color: #00b894;
+
+}
+
+/* Intro */
+
+#intro{
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  top: 0;
+}
+
+
+#intro .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+#intro .content{
+  border: solid 2px #fff;
+  padding: 50px;
+  margin: 100px;
+}
+
+#intro h1{
+  font-family: 'Playfair Display', serif, sans, sans-serif;
+  font-size: 500%;
+  color: #fff;
+  font-size: 100px;
+  text-shadow: 0px 0px 300px #000;
+  margin: 0;
+}
+
+#intro p{
+  font-family: 'Playfair Display', serif, sans, sans-serif;
+  font-size:250%;
+}
+
+/* Info */
+
+#info{
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#info h3{
+  font-family:'Raleway', sans-serif;
+}
+
+#info a{
+  padding: 0 50px;
+}
+
+/* Footer */
+
+footer{
+  display: table;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+footer p{
+  float: right;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 768px){
+/* Intro */
+  #intro h1{
+    font-size: 250%;
+  }
+
+  #intro p{
+    font-size: 125%;
+  }
+
+  #intro .btn{
+    font-size: 100%;
+    padding: 7px 15px;
+  }
+
+  #intro .content{
+    padding: 20px;
+    margin: 50px;
+  }
+
+  img{
+    margin: 25px;
+    width: 50%;
+  }
+}
